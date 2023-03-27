@@ -1,0 +1,22 @@
+
+.carousel-inner img {
+    height:auto;
+    width: 100%;
+}
+button {
+border: none;
+min-width: 700;
+display: flex;
+font-size: 30px;
+line-height: 30px;
+text-align: center;
+background:  #FBAB7E;
+color:lightslategrey;
+border-radius: 50%;
+box-shadow: 2px 2px 5px rgb(0,0,0,.5);
+transition: all .4s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.2)
+}
