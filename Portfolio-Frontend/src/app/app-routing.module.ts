@@ -1,7 +1,7 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppComponent } from './app.component';
+import { RouterModule, Routes} from '@angular/router'
 import { NavbarComponent } from './navbar/navbar.component';
 import { BannerComponent } from './banner/banner.component';
 import { CardComponent } from './card/card.component';
@@ -10,28 +10,25 @@ import { HardAnsSoftComponent } from './hard-ans-soft/hard-ans-soft.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { LoginComponent } from './modals/login/login.component';
 import { CarrouselEducationComponent } from './carrousel-education/carrousel-education.component';
-import { AppRoutingModule } from './app-routing.module';
 
 
 
+const  appRoute: Routes = [
+    {path:'', component: NavbarComponent},
+    {path:'', component: BannerComponent},
+    {path:'', component: CardComponent},
+    {path:'', component: ExperienceComponent},
+    {path:'', component: HardAnsSoftComponent},
+    {path:'', component: ProjectsComponent},
+    {path:'', component: LoginComponent},
+    {path:'', component: CarrouselEducationComponent},
 
+  ]
+  
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavbarComponent,
-    BannerComponent,
-    CardComponent,
-    ExperienceComponent,
-    HardAnsSoftComponent,
-    ProjectsComponent,
-    LoginComponent,
-    CarrouselEducationComponent,
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  imports: [RouterModule.forRoot(appRoute)],
+  exports: [RouterModule]
 })
-export class AppModule { }
+
+export class AppRoutingModule {
+}
