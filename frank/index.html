@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Franckestein</title>
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/abdd297423.js" crossorigin="anonymous"></script>
+     <!-- css de bootsrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <!--mi css--> 
+     <link rel="stylesheet" type="text/css" href="assets/style.css">    
+    </head>
+
+<body>
+
+  <!--navbar-->
+
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg bg-navbar p-md-3">
+        <div class="container-fluid">
+                <a class="navbar-brand collapse navbar-collapse"  href="#">
+                  <img src="assets/images/Logo Argentina Programa.png" alt="Logo Argentina Programa">
+                </a>
+                  <button class="fa-solid fa-circle-user"   data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
+                  </button>    
+        </div>
+      </nav>
+    </header> 
+
+    <!--Banner-->
+  <div id="Mi banner" class="carousel slide"> 
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+
+           <!--Login-->
+       <div class="wrapper">
+           <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+        <div class="form-box login">
+            <h2>Login</h2>
+           <form action="#">
+             <div class="input-box">
+                <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                <input type="email" required>
+                 <label>Email</label>
+             </div>
+             <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" required>
+                <label>Password</label>
+             </div>
+             <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">Forgot Password</a>
+             </div>
+              <button type="submit" class="btn">Login</button>
+             <div class="login-register">
+                <p> Don't have an account?
+                <a href="#" class="register-link"> Register</a>
+                </p>
+             </div> 
+           </form>
+         </div>
+
+          <div class="form-box register">
+              <h2>Registration</h2>
+            <form action="#">
+              <div class="input-box">
+               <span class="icon"><ion-icon name="person-sharp"></ion-icon></span>
+               <input type="text" required>
+               <label>Username</label>
+              </div>
+              <div class="input-box">
+               <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+               <input type="email" required>
+               <label>Email</label>
+              </div>
+              <div class="input-box">
+               <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+               <input type="password" required>
+               <label>Password</label>
+              </div>
+              <button type="submit" class="btn">Register</button>
+             <div class="login-register">
+               <p> Already have an account?
+               <a href="#" class="login-link">Login</a>
+               </p>
+              </div>
+            </form>
+          </div>
+       </div>  
+           <img src="assets/images/image banner 2.png" height="500px" class="d-block w-100" alt="imagen otoñal de banner">
+    </div>
+ </div> 
+
+  <!-- Modal Banner-->
+   <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio1" autocomplete="off" checked>
+   <label class="btn btn-outline-danger" for="vbtn-radio2"><button class="fa-solid fa-pencil" data-bs-toggle="modal" data-bs-target="#imgModal"></button></label>
+  <div class="modal fade" id="imgModal" tabindex="-1" aria-labelledby="imgModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+         <h1 class="modal-title fs-5" id="imgModal">Editar imagen</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div> 
+        <div class="modal-body">
+           <form>
+              <div class="mb-3">
+               <label for="imgBanner" class="form-label">Editar imagen</label>
+               <input type="url"  placeholder="inserte url de imagen" id="imgBanner" name="imgBanner" required>
+             </div>
+             <div class="modal-footer">
+              <button type="submit" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+             </div>
+           </form>
+         </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+   <!--Card-->
+    <main class="card">
+      <div class="mx-auto"></div>
+      <header class="card_header">
+        <img src="assets/images/20230309_183050.jpg" alt="Foto de perfil">
+      </header>
+      <section>
+        <h2>Denisse Costilla</h2>
+        <h3>FullStack Developer / QA junior</h3>
+        <p>Me interesan los trabajos por proyectos, cuento para ello con orientación a resultados por objetivos, capacidad de adaptación, creatividad y búsqueda de soluciones innovadoras</p>
+       <section>
+         <ul>
+           <li><a href="https://github.com/giniara" target= "_blank"  class="fa fa-github"></a></li>
+           <li><a href="https://www.linkedin.com/in/denisse-costilla-a06a9b107/" target="_blank" class="fa fa-linkedin"></a></li>
+         </ul>
+       </section>
+       <footer>
+        <p>Coded by Cynthia Denisse Costilla</p>
+       </footer>
+      </section>
+    </main>
+
+    <!--Modal Card-->
+    <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off" checked>
+    <label class="btn btn-outline-danger" for="vbtn-radio3"><button class="fa-solid fa-pencil" data-bs-toggle="modal" data-bs-target="#imgModal"></button></label></label>
+    <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio3" autocomplete="off" checked>
+    <label class="btn btn-outline-danger" for="vbtn-radio4"><button class="fa-solid fa-pencil" data-bs-toggle="modal" data-bs-target="#imgModal"></button></label></label>
+    <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio4" autocomplete="off" checked>
+    <label class="btn btn-outline-danger" for="vbtn-radio5"><button class="fa-solid fa-pencil" data-bs-toggle="modal" data-bs-target="#imgModal"></button></label></label>
+    <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio5" autocomplete="off" checked>
+    <label class="btn btn-outline-danger" for="vbtn-radio6"><button class="fa-solid fa-pencil" data-bs-toggle="modal" data-bs-target="#imgModal"></button></label></label>
+    
+    <!--Hard and Soft Skills-->
+      <div class="about__texts">
+        <h2 class="subtitle mt-4 pb-3">Habilidades</h2>
+        <p class="about__paragraph"></p>
+        <div class="progress-circle-container">
+          <div class="progress-circle progress-75"><span>Ingles</span></div>
+          <div class="progress-circle progress-50"><span>Excel</span></div>
+          <div class="progress-circle progress-30"><span>Power Bi</span></div>
+          <div class="progress-circle progress-50"><span>C++</span></div>
+          <div class="progress-circle progress-50"><span>JAVA</span></div>
+          <div class="progress-circle progress-50"><span>HTML</span></div>
+          <div class="progress-circle progress-50"><span>CSS</span></div>
+          <div class="progress-circle progress-50"><span>SQL</span></div>  
+          <div class="progress-circle progress-30"><span>Jira</span></div>  
+          <div class="progress-circle progress-30"><span>Zephyr</span></div>  
+          <div class="progress-circle progress-30"><span>Postman</span></div>  
+          <div class="progress-circle progress-30"><span>UATs</span></div>  
+          <div class="progress-circle progress-30"><span>UX/UI</span></div>
+          <div class="progress-circle progress-30"><span>Selenium</span></div>    
+        </div>
+      </div>
+
+      <!-- Modal Hard and Soft Skills-->
+      <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio6" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="vbtn-radio7"><button class="fa-solid fa-pencil" data-bs-toggle="modal" data-bs-target="#imgModal"></button></label></label>
+    </div>
+    
+      <!-- Carrousel Education-->
+        <h2 class="subtitle">Educación</h2>
+        <div class="slider-frame">
+            <ul>
+              <li><img src="assets/images/Certificado- Testing.jpg" alt=""></li>
+              <li><img src="assets/images/Certificado.jpg" alt=""></li>
+              <li><img src="assets/images/Certificado SeProgramar.png" alt=""></li>
+              <li><img src="assets/images/Oficial.jpg" alt=""></li>
+            </ul>
+          </div>
+
+        <!--Modal Carrousel Education-->
+        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio7" autocomplete="off" checked>
+        <label class="btn btn-outline-danger" for="vbtn-radio8"><button class="fa-solid fa-pencil" data-bs-toggle="modal" data-bs-target="#imgModal"></button></label></label>
+        </div>
+
+<!--Projects-->
+  <section class="projects">
+    <div class="container">
+     <h2 class="subtitle mt-4 pb-3">Mis Proyectos</h2>
+     <div class="projects__grid">
+
+       <article class="projects__item">
+        <img src="assets/images/Proyecto-test.png" class="projects__img">
+        <div class="projects__hover">
+         <h2 class="projects__title">Proyecto</h2>
+         <i class="far fa-file-alt projects__icon"></i>
+        </div>
+       </article>
+
+       <article class="projects__item">
+        <img src="" class="projects__img">
+        <div class="projects__hover">
+         <h2 class="projects__title">Proyecto</h2>
+         <i class="far fa-file-alt projects__icon"></i>
+        </div>
+       </article>
+
+       <article class="projects__item">
+        <img src="" class="projects__img">
+        <div class="projects__hover">
+         <h2 class="projects__title">Proyecto</h2>
+         <i class="far fa-file-alt projects__icon"></i>
+        </div>
+       </article>
+
+       <article class="projects__item">
+        <img src="" class="projects__img">
+        <div class="projects__hover">
+         <h2 class="projects__title">Proyecto</h2>
+         <i class="far fa-file-alt projects__icon"></i>
+        </div>
+       </article>
+
+        <article class="projects__item">
+         <img src="" class="projects__img">
+         <div class="projects__hover">
+           <h2 class="projects__title">Proyecto</h2>
+           <i class="far fa-file-alt projects__icon"></i>
+         </div>
+        </article>
+      </div>
+     </div>
+  </section>
+
+      <!--Modal Projects-->
+      <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio8" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="vbtn-radio9"><button class="fa-solid fa-pencil" data-bs-toggle="modal" data-bs-target="#imgModal"></button></label></label>   
+      </div>
+
+<!--Experience-->
+     <section class="fondo__experiencia"> 
+       <img src="assets/images/etienne-girardet-Xh6BpT-1tXo-unsplash.jpg"  class="w-100" alt=""> 
+       <div class="content">
+         <h3>Experiencias</h3>
+         <p>Actualidad __  Desarrollo de páginas web en desarrollos independiente</p>
+
+         <p>2022/12--2018/07__  Secretaria en Centro Integral de dermatología
+                              Me ocupaba  de la recepción de los pacientes teniendo un buen manejo de las obras sociales con sus respectivas planillas y sistemas. Estoy familiarizada con las prácticas relacionadas a la salud y terminologías médicas. Así como el manejo ordenado de la agenda, la modificación y actualización de consultas, registrando cambios y cancelaciones. Controlaba la caja diaria.
+         </p>
+         <p>2019/11--2019/05__  Centro de Investigación de la Atmósfera Superior y Radiopropagación
+                               __Universidad Técnologica Nacional-FRT__
+                               Recopilación diaria de datos del sondador  de Bahia Blanca sobre la Atmósfera Ionizada.
+          </p>
+         <p>2013/10--2011/02__  Administrativa contable en Rc Equipamiento Comercial
+                                Manejaba el sistema FoxPro, ingresaba datos, estaba a cargo del control de mercadería, el libro compra-venta, IVA, facturación. 
+         </p>
+         <p>2010/12--2009/01__  Vendedora en RC Equipamiento Comercial
+                                Coordinaba un grupo de ventas, empleaba una buena organización y distribución zonal.
+         </p>
+       </div>
+      </section>
+      <!-- Modal Experience-->
+      <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio9" autocomplete="off" checked>
+      <label class="btn btn-outline-danger" for="vbtn-radio10"><button class="fa-solid fa-pencil" data-bs-toggle="modal" data-bs-target="#imgModal"></button></label></label>
+      </div>
+
+      <!--Adios-->
+            <section class="adios">
+                <div class="progress-wrapper">
+                  <div class="inner"></div>
+                    <div class="circle">
+                      <div class="bar left">
+                        <div class="progress"></div>
+                        <div class="bar rigth">
+                         <div class="progress"></div>
+                        </div>
+                      </div>
+                  </div>  
+                </div>
+                <img src="assets/images/LinkedIn_Monochromatic.svg" class="img1" alt="">
+                <img src="assets/images/Sent messages _Isometric.svg" class="img2" alt="">
+                <button class="fa-solid fa-download">Download</button>
+               <img src="assets/images/rodion-kutsaiev-IJ25m7fXqtk-unsplash.jpg"  class="w-100" alt="">
+              </section> 
+              <!--Modal Adios-->
+              <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio10" autocomplete="off" checked>
+        <label class="btn btn-outline-danger" for="vbtn-radio11"><button class="fa-solid fa-pencil" data-bs-toggle="modal" data-bs-target="#imgModal"></button></label></label>
+        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio11" autocomplete="off" checked>
+        <label class="btn btn-outline-danger" for="vbtn-radio12"><button class="fa-solid fa-pencil" data-bs-toggle="modal" data-bs-target="#imgModal"></button></label></label>
+            </div>
+              
+          
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+     <script src="assets/script.js"></script>
+    </body>
+</html>
+
+ 
+  
+  
