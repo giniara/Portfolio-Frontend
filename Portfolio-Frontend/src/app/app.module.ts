@@ -2,15 +2,17 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { BannerComponent } from './banner/banner.component';
-import { CardComponent } from './card/card.component';
-import { ExperienceComponent } from './experience/experience.component';
-import { HardAnsSoftComponent } from './hard-ans-soft/hard-ans-soft.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { LoginComponent } from './modals/login/login.component';
-import { CarrouselEducationComponent } from './carrousel-education/carrousel-education.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { CardComponent } from './components/card/card.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { HardAnsSoftComponent } from './components/hard-ans-soft/hard-ans-soft.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { LoginComponent } from './components/login/login.component';
+import { CarrouselEducationComponent } from './components/carrousel-education/carrousel-education.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ComponentsComponent } from './components.component';
+import { AdiosComponent } from './components/adios/adios.component';
 
 
 
@@ -26,6 +28,8 @@ import { AppRoutingModule } from './app-routing.module';
     ProjectsComponent,
     LoginComponent,
     CarrouselEducationComponent,
+    ComponentsComponent,
+    AdiosComponent,
   ],
   imports: [
     BrowserModule,
