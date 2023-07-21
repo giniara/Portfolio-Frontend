@@ -8,7 +8,7 @@ import { CardComponent } from './components/card/card.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { HardAnsSoftComponent } from './components/hard-ans-soft/hard-ans-soft.component';
 import { ProjectsComponent } from './components/projects/projects.component';
-import { LoginComponent } from './modals/login/login.component';
+import { LoginComponent } from './components/login/login.component';
 import { CarrouselEducationComponent } from './components/carrousel-education/carrousel-education.component';
 
 
