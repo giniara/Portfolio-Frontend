@@ -26,10 +26,10 @@ import { AdiosComponent } from './components/adios/adios.component';
     ExperienceComponent,
     HardAnsSoftComponent,
     ProjectsComponent,
-    LoginComponent,
     CarrouselEducationComponent,
     ProjectsComponent,
     AdiosComponent,
+  
   ],
   imports: [
     BrowserModule,
