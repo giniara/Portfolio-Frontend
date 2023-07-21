@@ -11,7 +11,6 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { LoginComponent } from './components/login/login.component';
 import { CarrouselEducationComponent } from './components/carrousel-education/carrousel-education.component';
 import { AppRoutingModule } from './app-routing.module';
-import { ComponentsComponent } from './components.component';
 import { AdiosComponent } from './components/adios/adios.component';
 
 
@@ -28,7 +27,6 @@ import { AdiosComponent } from './components/adios/adios.component';
     ProjectsComponent,
     LoginComponent,
     CarrouselEducationComponent,
-    ComponentsComponent,
     AdiosComponent,
   ],
   imports: [
