@@ -29,7 +29,6 @@ import { AdiosComponent } from './components/adios/adios.component';
     CarrouselEducationComponent,
     ProjectsComponent,
     AdiosComponent,
-  
   ],
   imports: [
     BrowserModule,
