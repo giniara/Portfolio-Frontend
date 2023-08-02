@@ -1,38 +1,31 @@
 .img1 {
      position:absolute;   
-     top:570%;
+     top:530%;
      left:8%;
      width:600px;
      height:300px;    
     }
- 
+
  .img2 {
       position:absolute;   
-      top:570%;
+      top:530%;
       left:30%;
       width:600px;
       height:300px;   
  }
 
-
-
- .fa-solid-fa-download {
-     width: 260px;
-     height: 90px;
-     border-radius: 40px;
-     transform: translate(-240%, 1400%);
-     font-size: 28px;
-     z-index: 1;
-     align-items:center;
-     background: #63B8FF;
-     color:#314652;
-     transition: .7s ease-in-out;
+ .example-button-row button,
+ .example-button-row a {
+   margin-left: 550px;
+   display:flex;
+   position: absolute;
+   top:570%;
+   color: #ffff;
+   font-size: x-large;
  }
  
- .fa-solid-fa-download.active {
-     font-size: 0;
-     width: 50px;
-     background:#ebebeb ;
+ .example-disabled {
+   display: inline-block;
  }
  
 

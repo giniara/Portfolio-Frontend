@@ -10,6 +10,7 @@ box-sizing: content-box;
 body {
     font-family: 'Raleway', sans-serif;
     background: linear-gradient(67deg, #FBAB7E 20%, #F7CE68 70%, #ffffff 110%);
+    color: #ffffff;
 }
 
 
@@ -21,3 +22,6 @@ body {
 
  
 
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

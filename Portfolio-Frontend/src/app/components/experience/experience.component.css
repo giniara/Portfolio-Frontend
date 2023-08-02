@@ -1,6 +1,43 @@
-.form-select {
-width: 600px;
-background-color: #FBAB7E;
-font-style:solid;
-font-size: medium;
-}
+.fondo__experiencia {
+    margin: 150px auto;
+    position: relative;
+    overflow: hidden;
+    }
+    
+    .fondo__experiencia img {
+        width: 100%;
+        height: 800px;
+        transition: all .5s;
+    }
+    
+    .fondo__experiencia:hover img {
+        transform: scale(1.09);
+    }
+    
+    .fondo__experiencia .content {
+        background: rgb(0,0,0,.7);
+        position:absolute;
+        top: -100%;
+        left: 0;
+        text-align:justify;
+         height: 100%;
+         color: #fff;
+         box-sizing: border-box;
+    }
+    
+    .content  h3 {
+        text-align: center;
+        font-size: 40px;
+        border-bottom: 1px solid #808080;
+        padding: 0 10px 20px 10px;
+    }
+    
+    .content p {
+        padding: 0 10px 20px 10px;
+        border-bottom: 1px solid #808080;
+    }
+    
+    .fondo__experiencia:hover .content {
+        top:0;
+    }
+    

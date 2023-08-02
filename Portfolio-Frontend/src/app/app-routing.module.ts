@@ -10,7 +10,7 @@ import { HardAnsSoftComponent } from './components/hard-ans-soft/hard-ans-soft.c
 import { ProjectsComponent } from './components/projects/projects.component';
 import { LoginComponent } from './components/login/login.component';
 import { CarrouselEducationComponent } from './components/carrousel-education/carrousel-education.component';
-
+import { AdiosComponent } from './components/adios/adios.component';
 
 
 const  appRoute: Routes = [
@@ -22,7 +22,7 @@ const  appRoute: Routes = [
     {path:'', component: ProjectsComponent},
     {path:'', component: LoginComponent},
     {path:'', component: CarrouselEducationComponent},
-
+    {path:'', component: AdiosComponent},
   ]
   
 @NgModule({

@@ -12,7 +12,8 @@ import { LoginComponent } from './components/login/login.component';
 import { CarrouselEducationComponent } from './components/carrousel-education/carrousel-education.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AdiosComponent } from './components/adios/adios.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -23,16 +24,18 @@ import { AdiosComponent } from './components/adios/adios.component';
     BannerComponent,
     LoginComponent,
     CardComponent,
-    ExperienceComponent,
     HardAnsSoftComponent,
     ProjectsComponent,
     CarrouselEducationComponent,
     ProjectsComponent,
+    ExperienceComponent,
     AdiosComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
