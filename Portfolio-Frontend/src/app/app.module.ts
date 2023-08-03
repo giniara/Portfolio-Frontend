@@ -14,6 +14,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AdiosComponent } from './components/adios/adios.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
+import { IonicModule } from '@ionic/angular';
+
 
 
 
@@ -30,12 +32,14 @@ import {MatButtonModule} from '@angular/material/button';
     ProjectsComponent,
     ExperienceComponent,
     AdiosComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    IonicModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
